@@ -1,121 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-15T09:08:31 IST" name="Default suite" finished-at="2022-11-15T09:08:58 IST" duration-ms="27163">
+  <suite started-at="2022-11-26T15:02:27 IST" name="Suite" finished-at="2022-11-26T15:02:46 IST" duration-ms="19652">
     <groups>
     </groups>
-    <test started-at="2022-11-15T09:08:31 IST" name="Default test" finished-at="2022-11-15T09:08:58 IST" duration-ms="27163">
-      <class name="base_class_and_utility_class.test_ng_test_class">
-        <test-method is-config="true" signature="OPEN_BROWSER()[pri:0, instance:base_class_and_utility_class.test_ng_test_class@c33b74f]" started-at="2022-11-15T09:08:31 IST" name="OPEN_BROWSER" finished-at="2022-11-15T09:08:55 IST" duration-ms="23453" status="PASS">
+    <test started-at="2022-11-26T15:02:27 IST" name="Test33" finished-at="2022-11-26T15:02:43 IST" duration-ms="16782">
+      <class name="test_ng_paralleltesting.eg2_paralleltesting33">
+        <test-method signature="openzerodha()[pri:0, instance:test_ng_paralleltesting.eg2_paralleltesting33@1afd44cb]" started-at="2022-11-26T15:02:27 IST" name="openzerodha" finished-at="2022-11-26T15:02:43 IST" duration-ms="16588" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- OPEN_BROWSER -->
-        <test-method is-config="true" signature="LOGIN_UPSTOX()[pri:0, instance:base_class_and_utility_class.test_ng_test_class@c33b74f]" started-at="2022-11-15T09:08:55 IST" name="LOGIN_UPSTOX" finished-at="2022-11-15T09:08:58 IST" duration-ms="3037" status="FAIL">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-at base_class_and_utility_class.upstox_login_pom_loginpage.upstox_login_pom_loginpage_enter_username(upstox_login_pom_loginpage.java:19)
-at base_class_and_utility_class.test_ng_test_class.LOGIN_UPSTOX(test_ng_test_class.java:52)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
+        </test-method> <!-- openzerodha -->
+      </class> <!-- test_ng_paralleltesting.eg2_paralleltesting33 -->
+    </test> <!-- Test33 -->
+    <test started-at="2022-11-26T15:02:27 IST" name="Test22" finished-at="2022-11-26T15:02:46 IST" duration-ms="19652">
+      <class name="test_ng_paralleltesting.eg1_parallel_testin1g22">
+        <test-method signature="openupstox()[pri:0, instance:test_ng_paralleltesting.eg1_parallel_testin1g22@29626d54]" started-at="2022-11-26T15:02:27 IST" name="openupstox" finished-at="2022-11-26T15:02:46 IST" duration-ms="19474" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LOGIN_UPSTOX -->
-        <test-method signature="VERIFY_UID()[pri:0, instance:base_class_and_utility_class.test_ng_test_class@c33b74f]" started-at="2022-11-15T09:08:58 IST" name="VERIFY_UID" finished-at="2022-11-15T09:08:58 IST" duration-ms="0" status="SKIP">
-          <exception class="java.lang.NullPointerException">
-            <message>
-              <![CDATA[Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)" because "this.searchContext" is null
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at jdk.proxy2/jdk.proxy2.$Proxy18.sendKeys(Unknown Source)
-at base_class_and_utility_class.upstox_login_pom_loginpage.upstox_login_pom_loginpage_enter_username(upstox_login_pom_loginpage.java:19)
-at base_class_and_utility_class.test_ng_test_class.LOGIN_UPSTOX(test_ng_test_class.java:52)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:577)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:527)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.NullPointerException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- VERIFY_UID -->
-        <test-method is-config="true" signature="LOG_OUT(org.testng.ITestResult)[pri:0, instance:base_class_and_utility_class.test_ng_test_class@c33b74f]" started-at="2022-11-15T09:08:58 IST" name="LOG_OUT" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668483538803" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- LOG_OUT -->
-        <test-method is-config="true" signature="CLOSE_BROWSER()[pri:0, instance:base_class_and_utility_class.test_ng_test_class@c33b74f]" started-at="2022-11-15T09:08:58 IST" name="CLOSE_BROWSER" finished-at="1970-01-01T05:30:00 IST" duration-ms="-1668483538860" status="SKIP">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- CLOSE_BROWSER -->
-      </class> <!-- base_class_and_utility_class.test_ng_test_class -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- openupstox -->
+      </class> <!-- test_ng_paralleltesting.eg1_parallel_testin1g22 -->
+    </test> <!-- Test22 -->
+  </suite> <!-- Suite -->
 </testng-results>
