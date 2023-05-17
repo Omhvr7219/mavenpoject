@@ -1,17 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Failed suite [Suite]]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)(failed)">
     <classes>
-      <class name="base_class_and_utility_class.test_ng_test_class">
+      <class name="testngprt.a22">
         <methods>
-          <include name="CLOSE_BROWSER"/>
-          <include name="LOGIN_UPSTOX"/>
-          <include name="LOG_OUT"/>
-          <include name="VERIFY_UID"/>
-          <include name="OPEN_BROWSER"/>
+          <include name="hvr"/>
         </methods>
-      </class> <!-- base_class_and_utility_class.test_ng_test_class -->
+      </class> <!-- testngprt.a22 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Suite]] -->

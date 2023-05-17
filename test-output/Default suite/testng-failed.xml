@@ -3,15 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="base_class_and_utility_class.test_ng_test_class">
+      <class name="testngprt.annotation1">
         <methods>
-          <include name="CLOSE_BROWSER"/>
-          <include name="LOGIN_UPSTOX"/>
-          <include name="LOG_OUT"/>
-          <include name="VERIFY_UID"/>
-          <include name="OPEN_BROWSER"/>
+          <include name="login1"/>
+          <include name="verify_uids"/>
+          <include name="opnbroweser"/>
         </methods>
-      </class> <!-- base_class_and_utility_class.test_ng_test_class -->
+      </class> <!-- testngprt.annotation1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -26,5 +26,6 @@ public class explicitlywait {
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("")));
 //	driver.findElement(By.xpath("//input[@class='_2IX_2- VJZDxU']")).sendKeys("8600906765");
 //	
+//	wait.until(ExpectedConditions.v)
 }
 }

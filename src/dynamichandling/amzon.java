@@ -19,7 +19,7 @@ public class amzon {
 	driver.findElement(By.xpath(("//input[@id='twotabsearchtextbox']"))).sendKeys("washung machine 8kg");
 driver.findElement(By.xpath(("//input[@id='nav-search-submit-button']"))).click();
 //	https://www.amazon.in/washung machine 8kg
-	String text = driver.findElement(By.xpath("((//div[@class='s-result-item s-asin sg-col-0-of-12 sg-col-16-of-20 AdHolder sg-col s-widget-spacing-small sg-col-12-of-16'])[1]//span)[38]")).getText();
+	String text = driver.findElement(By.xpath("((//div[@class='sg-col sg-col-4-of-12 sg-col-8-of-16 sg-col-12-of-20 s-list-col-right'])[12]//span)[12]")).getText();
 
 System.out.println(text);	
 	}

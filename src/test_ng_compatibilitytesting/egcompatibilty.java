@@ -13,7 +13,7 @@ public class egcompatibilty {
 	@Parameters("browesername")
 	@Test
 
-	public void TC1(String browesername) {
+	public void TC1 (String browesername) {
 		
 		if (browesername.equals("chrome")) {
 			System.setProperty("webdriver.chrome.driver", "C:\\Dell\\selenium 4.4\\chromedriver.exe");
